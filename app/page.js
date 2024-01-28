@@ -6,6 +6,7 @@ import { SearchParamsContext } from "next/dist/shared/lib/hooks-client-context.s
 import Search from "./Search";
 import YourComponent from "./data";
 import Headlines from "./Headlines";
+import Footer from "./Footer";
 
 const Page = () =>{
   return(
@@ -13,6 +14,7 @@ const Page = () =>{
       <Header/>
       <Search/>
       <Headlines/>
+      <Footer/>
     </>
   )
 }
