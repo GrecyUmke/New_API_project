@@ -1,15 +1,17 @@
-import React from "react";
-import "bootstrap/dist/css/bootstrap.css";
-
 const Header = ()=>{
     return(
         <>
-        <div className="container-fluid">
-            <div className=" col-12 nav justify-content-center">
-                <img src="Header.png"/>
+            <div className="container-fluid">
+                <div className="row  justify-content-center">
+                    <div className="header text-center">  
+                        <span>NewsAPI</span>
+                        <img src="Ellipse 1.png" className="circle"/>
+                        <span>Org</span>
+                    </div>
+                    <div className="row border border-black"></div>
+                    <div className="row border border-black mt-1"></div>
+                </div>
             </div>
-            <div className="col-12 border border-dark" style={{height:"10px"}}></div>
-        </div>
         </>
         
     )

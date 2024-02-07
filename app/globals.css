@@ -1,4 +1,47 @@
-.row1{
-  border-color:"black";
-  border:"solid 1px";
+@import"bootstrap/dist/css/bootstrap.min.css";
+
+
+.header{
+  color: #3C3030;
+  font-family: "Iowan Old Style";
+  font-size: 84px;
+  margin-bottom:3px;
+}
+@media (max-width: 576px) {
+  .header{
+    font-size:35px;
+  }
+}
+@media (min-width: 768px) {
+  .header{
+    font-size:84px;
+  }
+} 
+
+@media (max-width: 576px) {
+  .circle{
+    height:40px;
+    padding-bottom:10px;
+  }
+} 
+
+@media (min-width: 768px) {
+  .circle{
+    padding-bottom:15px;
+  }
+} 
+
+.foot{
+color:#3C3030;
+font-family: "Iowan Old Style";
+font-size: 16px;
+line-height: 140%; 
+}
+
+.newsline{
+  margin-top:40px;
+}
+
+.headlinebox{
+  height:408px;
 }
