@@ -4,19 +4,19 @@ import "bootstrap/dist/css/bootstrap.css";
 const Headlines = () =>{
     return(
         <div className="container">
-            <div className="text-danger headtext">
+            <div className="text-danger head-text">
                 <span>TOP NEWS FROM INDIA</span>
             </div>
             <div className="row">
-                <div className="col-md-4 border border-dark headlinebox"></div>  
-                <div className="col-md-4 border border-dark headlinebox"></div>                 
-                <div className="col-md-4 border border-dark headlinebox"></div> 
-                <div className="col-md-4 border border-dark headlinebox"></div>  
-                <div className="col-md-4 border border-dark headlinebox"></div>                 
-                <div className="col-md-4 border border-dark headlinebox"></div> 
-                <div className="col-md-4 border border-dark headlinebox"></div>  
-                <div className="col-md-4 border border-dark headlinebox"></div>                 
-                <div className="col-md-4 border border-dark headlinebox"></div> 
+                <div className="col-md-4 border border-dark headline-box"></div>  
+                <div className="col-md-4 border border-dark headline-box"></div>                 
+                <div className="col-md-4 border border-dark headline-box"></div> 
+                <div className="col-md-4 border border-dark headline-box"></div>  
+                <div className="col-md-4 border border-dark headline-box"></div>                 
+                <div className="col-md-4 border border-dark headline-box"></div> 
+                <div className="col-md-4 border border-dark headline-box"></div>  
+                <div className="col-md-4 border border-dark headline-box"></div>                 
+                <div className="col-md-4 border border-dark headline-box"></div> 
             </div>
         </div>
     )

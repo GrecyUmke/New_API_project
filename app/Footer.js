@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.css";
 const Footer = () =>{
     return(
         <div className="container-fluid">
-            <div className="row border border-dark mt-5 justify-content-center" style={{height:"100px"}}>
+            <div className="row border border-dark mt-5 footer">
                 <div className="col-12 text-center mt-2 foot">
                    NewsAPI
                    <img src="symbol.png"/>

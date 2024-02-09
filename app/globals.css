@@ -38,13 +38,13 @@ font-size: 16px;
 line-height: 140%; 
 }
 
-.headlinebox{
+.headline-box{
   height:408px;
   margin-top:20px;
   margin-bottom:40px;
 }
 
-.searchbox{
+.search-box{
   height:60px;
   width:303px;
   margin-top:45px;
@@ -55,14 +55,18 @@ line-height: 140%;
   background-position:5px center;
 }
 
-.gobutton{
-  height:61px;
-  width:61px;
+.go-button{
+  height:60px;
+  width:60px;
   background:#E84848;
   margin-top:45px;
   margin-bottom:45px;
+  color:white;
 }
-.headtext{
+.head-text{
   margin-top:15px;
   margin-bottom:15px;
+}
+.footer{
+  height:100px;
 }

@@ -8,8 +8,8 @@ const Header = ()=>{
                         <img src="Ellipse 1.png" className="circle"/>
                         <span>Org</span>
                     </div>
-                    <div className="row border border-black"></div>
-                    <div className="row border border-black mt-1"></div>
+                    <div className="col-12 border border-black"></div>
+                    <div className="col-12 border border-black mt-1"></div>
                 </div>
             </div>
         </>
