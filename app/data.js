@@ -1,269 +1,265 @@
-[{
-    "status": "ok",
-    "totalResults": 38,
-    "articles": [
+const data=[
         {
             "source": {
                 "id": 1,
-                "name": "Forbes"
+                "name": "The Indian Express"
             },
-            "author": "Kelly Phillips Erb",
-            "title": "Former IRS Contractor Will Go To Jail For Disclosing Trump's Tax Returns - Forbes",
-            "description": "Charles Littlejohn has been sentenced to five years in prison for disclosing thousands of tax returns—including President Trump’s tax returns—without authorization.",
-            "url": "https://www.forbes.com/sites/kellyphillipserb/2024/01/30/former-irs-contractor-will-go-to-jail-for-disclosing-trumps-tax-returns/",
-            "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/63f18c6a80e39eabc256b89e/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-            "publishedAt": "2024-01-30T12:00:00Z",
-            "content": "A former IRS contractor has been sentenced to five years in prison for disclosing thousands of tax returnsincluding Donald Trumps tax returnswithout authorization.\r\nCharles Littlejohn abused his posi… [+5986 chars]"
+            "author": "The Indian Express",
+            "title": "Sri Lanka vs Afghanistan Live Score, 3rd ODI: Dananjaya removes Gurbaz for 48, AFG two down - The Indian Express",
+            "description": null,
+            "url": "https://indianexpress.com/article/sports/cricket/sri-lanka-vs-afghanistan-live-score-3rd-odi-sl-vs-afg-scorecard-updates-9160400/",
+            "urlToImage": null,
+            "publishedAt": "2024-02-14T10:23:53Z",
+            "content": null
         },
         {
             "source": {
                 "id": 2,
-                "name": "CBS Sports"
+                "name": "Gadgets360.com"
             },
-            "author": "",
-            "title": "Super Bowl 2024 odds, opening line: Patrick Mahomes, Chiefs slight underdogs vs. 49ers in Super Bowl LVIII - CBS Sports",
-            "description": "The line dipped 1.5 points in a matter of hours",
-            "url": "https://www.cbssports.com/nfl/news/super-bowl-2024-odds-opening-line-patrick-mahomes-chiefs-slight-underdogs-vs-49ers-in-super-bowl-lviii/",
-            "urlToImage": "https://sportshub.cbsistatic.com/i/r/2024/01/29/f6946517-7b6f-4d5c-852a-08245d1a6371/thumbnail/1200x675/46db2747dd4935a82fa98a0169183a88/super-bowl-vegas-g.jpg",
-            "publishedAt": "2024-01-30T11:48:00Z",
-            "content": "The NFL's Championship Sunday was one for the books, as the Kansas City Chiefs registered their second straight upset victory on the road to eliminate the No. 1 seed Baltimore Ravens, 17-10, while th… [+2039 chars]"
+            "author": "Akash Dutta, Ketan Pratap",
+            "title": "OpenAI Tests a New Memory Feature for ChatGPT to Let the AI Remember Past Conversations - Gadgets 360",
+            "description": "OpenAI is testing a new memory feature for ChatGPT to help make conversations seamless and hassle-free. The feature will allow the artificial intelligence (AI)--powered chatbot to retain pieces of information beyond a specific conversation. The company says t…",
+            "url": "https://www.gadgets360.com/ai/news/openai-chatgpt-ai-memory-enhancement-feature-test-remember-past-conversations-5056071",
+            "urlToImage": "https://i.gadgets360cdn.com/large/chatgpt_mobile_logo_1707905108297.jpg",
+            "publishedAt": "2024-02-14T10:07:10Z",
+            "content": "OpenAI is testing a new feature for its generative artificial intelligence (AI)-powered assistant ChatGPT that can make conversations much more fluid. The AI firm is rolling out an update this week t… [+2817 chars]"
         },
         {
             "source": {
                 "id": 3,
-                "name": "Yahoo Entertainment"
+                "name": "Xm.com"
             },
-            "author": "Pras Subramanian",
-            "title": "GM reports Q4 sales and profit beat, issues improved profit outlook but admits EV pace has slowed - Yahoo Finance",
-            "description": "GM (GM) reported a top and bottom line beat for the fourth quarter, and issued 2024 full-year profit guidance that matched its initial forecast for 2023, as ...",
-            "url": "https://finance.yahoo.com/news/gm-reports-q4-sales-and-profit-beat-issues-improved-profit-outlook-but-admits-ev-pace-has-slowed-181450943.html",
-            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/2mVCH3vm368NlP7Df8DOqA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2024-01/80198e50-bec4-11ee-8df8-ff4312e52524",
-            "publishedAt": "2024-01-30T11:34:41Z",
-            "content": "General Motors (GM) reported a top and bottom line beat for the fourth quarter, and issued 2024 full-year profit guidance that matched its initial forecast for 2023 on Tuesday.\r\nThe upbeat earnings r… [+5026 chars]"
+            "author": null,
+            "title": "Intuitive Machines slides as launch of its US moon lander postponed - XM",
+            "description": "The XM Research Desk, manned by market expert professionals, provides live daily updates on all the major events of the global markets in the form of market reviews, forex news, technical analysis, investment topics, daily outlook and daily videos.",
+            "url": "https://www.xm.com/research/markets/allNews/reuters/intuitive-machines-slides-as-launch-of-its-us-moon-lander-postponed-53764815",
+            "urlToImage": "https://cloud.xm-cdn.com/static/xm/common/logos/XM-logo.jpg",
+            "publishedAt": "2024-02-14T10:05:30Z",
+            "content": "What are Cookies?\r\nCookies are small data files. When you visit a website, the website sends the cookie to your computer. Your computer stores it in a file located inside your web browser.\r\nCookies d… [+3361 chars]"
         },
         {
             "source": {
                 "id": 4,
-                "name": "Associated Press"
+                "name": "The Times of India"
             },
-            "author": "AREF TUFAHA, MELANIE LIDMAN, WAFAA SHURAFA",
-            "title": "Israeli undercover forces dressed as women and medics storm West Bank hospital, killing 3 militants - The Associated Press",
-            "description": "Israeli forces disguised as civilian women and medical workers stormed a hospital in the occupied West Bank and killed three Palestinian militants. Tuesday's dramatic raid underscored how deadly violence has spilled into the territory from the war in Gaza. Th…",
-            "url": "https://apnews.com/article/israel-hamas-war-news-01-30-2024-b1ba33c7c0c5c62f85932a20c2a0bc92",
-            "urlToImage": "https://dims.apnews.com/dims4/default/bfb8902/2147483647/strip/true/crop/5616x3159+0+293/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fa9%2F5d%2F9a3a0b5562803bbe3589267748c8%2Faf874baded1640a68b07d17a160d7fc8",
-            "publishedAt": "2024-01-30T11:26:15Z",
-            "content": "JENIN, West Bank (AP) Israeli forces disguised as civilian women and medical workers stormed a hospital Tuesday in the occupied West Bank, killing three Palestinian militants in a dramatic raid that … [+6872 chars]"
+            "author": "TOI Tech Desk",
+            "title": "Asus launches Zephyrus G16 laptops, refreshed Strix Scar series and ROG G22 gaming desktop in India: Pric - Times of India",
+            "description": "Check out the latest Asus launches in India including Zephyrus G16 laptops, refreshed Strix Scar series, and ROG G22 gaming desktop. Get the price, specs, and more information here.",
+            "url": "https://timesofindia.indiatimes.com/gadgets-news/asus-launches-zephyrus-g16-laptops-refreshed-strix-scar-series-and-rog-g22-gaming-desktop-in-india-price-specs-and-more/articleshow/107687424.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-107687550,width-1070,height-580,imgsize-44658,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2024-02-14T09:08:00Z",
+            "content": "5G smartphones with 10GB or more RAM under Rs 25,000"
         },
         {
             "source": {
                 "id": 5,
-                "name": "Reuters"
+                "name": "Hindustan Times"
             },
-            "author": "Reuters UK",
-            "title": "After two-year hiatus, Northern Irish government could return in days - Reuters UK",
-            "description": null,
-            "url": "https://www.reuters.com/world/uk/northern-ireland-government-could-return-within-days-dup-leader-says-2024-01-30/",
-            "urlToImage": null,
-            "publishedAt": "2024-01-30T10:38:00Z",
-            "content": null
+            "author": "HT News Desk",
+            "title": "BJP fields Nadda for RS polls from Gujarat, Ashok Chavan from Maharashtra - Hindustan Times",
+            "description": "BJP fields Nadda for Rajya Sabha polls from Gujarat, Ashok Chavan from Maharashtra | Latest News India",
+            "url": "https://www.hindustantimes.com/india-news/bjp-names-nadda-for-rajya-sabha-polls-from-gujarat-ashok-chavan-from-maharashtra-101707901022117.html",
+            "urlToImage": "https://www.hindustantimes.com/ht-img/img/2024/02/14/1600x900/nadda_and_ashok_chavan_rajya_sabha_polls_1707901732121_1707901818256.jpg",
+            "publishedAt": "2024-02-14T08:59:57Z",
+            "content": "The Bharatiya Janata Party (BJP) on Wednesday named party chief J P Nadda as its candidate for Rajya Sabha elections from Gujarat and fielded Congress turncoat Ashok Chavan from Maharashtra. Nadda is… [+2033 chars]"
         },
         {
             "source": {
                 "id": 6,
-                "name": "BBC News"
+                "name": "NDTV News"
             },
             "author": null,
-            "title": "Elon Musk says Neuralink implanted wireless brain chip - BBC.com",
-            "description": "The company intends for such chips to eventually help tackle complex medical conditions.",
-            "url": "https://www.bbc.com/news/technology-68137046",
-            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/F7A7/production/_132499336_elon_musk_getty.jpg",
-            "publishedAt": "2024-01-30T10:38:00Z",
-            "content": "By Patrick Jackson &amp; Tom GerkenBBC News\r\nTech billionaire Elon Musk has claimed his Neuralink company has successfully implanted one of its wireless brain chips in a human.\r\nIn a post on X, forme… [+4382 chars]"
+            "title": "\"World Today Needs Clean, Transparent, Tech-Savvy Governments\": PM Modi In UAE - NDTV",
+            "description": "Prime Minister Narendra Modi, addressing at the World Government Summit in Dubai, highlighted the importance of clean and transparent governance as a crucial factor in addressing the challenges faced by governments worldwide.",
+            "url": "https://www.ndtv.com/india-news/world-today-needs-clean-transparent-tech-savvy-governments-pm-modi-in-uae-5055642",
+            "urlToImage": "https://c.ndtvimg.com/2024-02/h5q334ok_modi-in-uae_625x300_14_February_24.jpg",
+            "publishedAt": "2024-02-14T08:46:42Z",
+            "content": "Dubai: Prime Minister Narendra Modi, addressing at the World Government Summit in Dubai, highlighted the importance of clean and transparent governance as a crucial factor in addressing the challenge… [+1999 chars]"
         },
         {
             "source": {
                 "id": 7,
-                "name": "NBCSports.com"
+                "name": "The Times of India"
             },
-            "author": "Michael David Smith",
-            "title": "Dan Campbell admits mistake in third-and-goal run that led to wasting a timeout - NBC Sports",
-            "description": "The biggest mistake Lions coach Dan Campbell made in his team's second-half meltdown against the 49ers was blowing a timeout on offense late in the game, rather than saving all three timeouts on defense to keep the 49ers from running out the clock at the end …",
-            "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-campbell-admits-mistake-in-third-and-goal-run-that-led-to-wasting-a-timeout",
-            "urlToImage": "https://nbcsports.brightspotcdn.com/dims4/default/a6b4b65/2147483647/strip/true/crop/8640x4860+0+450/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2F4b%2F01%2F40e8fe554bee8add94ed694f60db%2Fhttps-delivery-gettyimages.com%2Fdownloads%2F1961127015",
-            "publishedAt": "2024-01-30T10:07:49Z",
-            "content": "The biggest mistake Lions coach Dan Campbell made in his teams second-half meltdown against the 49ers was blowing a timeout on offense late in the game, rather than saving all three timeouts on defen… [+1811 chars]"
+            "author": "TIMESOFINDIA.COM",
+            "title": "Video: Yahya Sinwar’s luxurious bedroom under Gaza tunnel, millions of cash, perfume bottles, and more - Times of India",
+            "description": "The IDF revealed shocking contents of Hamas Chief Yahya Sinwar’s lavish bedroom inside a Gaza tunnel. IDF's first-ever location of Sinwar's hideout includes videos showcasing his luxurious lifestyle, with millions in cash, a table, and perfume bottle",
+            "url": "https://timesofindia.indiatimes.com/videos/toi-original/video-yahya-sinwars-luxurious-bedroom-under-gaza-tunnel-millions-of-cash-perfume-bottles-and-more/videoshow/107686821.cms",
+            "urlToImage": "https://timesofindia.indiatimes.com/photo/msid-107686821,imgsize-92338.cms",
+            "publishedAt": "2024-02-14T08:46:20Z",
+            "content": "Feb 14, 2024, 02:16PM ISTSource: TOI.inThe IDF revealed shocking contents of Hamas Chief Yahya Sinwars lavish bedroom inside a Gaza tunnel. IDF's first-ever location of Sinwar's hideout includes vide… [+146 chars]"
         },
         {
             "source": {
                 "id": 8,
-                "name": "Axios"
+                "name": "BBC News"
             },
-            "author": "Axios",
-            "title": "Photos: Webb telescope captures 19 spiral galaxies - Axios",
-            "description": null,
-            "url": "https://www.axios.com/2024/01/30/james-webb-space-telescope-spiral-galaxies-photos",
-            "urlToImage": null,
-            "publishedAt": "2024-01-30T10:00:16Z",
-            "content": null
+            "author": null,
+            "title": "India farmers: Police fire tear gas again at protesters trying to resume march to Delhi - BBC.com",
+            "description": "Security forces have stopped farmers for a second day as they attempt to resume their march to Delhi.",
+            "url": "https://www.bbc.com/news/world-asia-india-68271364",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/0C14/production/_132629030_gettyimages-1988741176-594x594.jpg",
+            "publishedAt": "2024-02-14T08:45:45Z",
+            "content": "By Arvind Chhabra in Haryana &amp; Meryl Sebastian in KochiBBC News\r\nIndia: Police barricade highways to block protesting farmers from entering Delhi\r\nIndian police have used tear gas for a second da… [+3991 chars]"
         },
         {
             "source": {
                 "id": 9,
-                "name": "CNN"
+                "name": "Hindustan Times"
             },
-            "author": "Michelle Toh",
-            "title": "Toyota remains world No.1 but its list of problems is growing - CNN",
-            "description": "Toyota has retained its lead as the world’s biggest automaker by sales, beating German rival Volkswagen for the fourth consecutive year.",
-            "url": "https://www.cnn.com/2024/01/30/business/japan-toyota-world-top-selling-automaker-2023-intl-hnk/index.html",
-            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/240130120201-toyota-file.jpg?c=16x9&q=w_800,c_fill",
-            "publishedAt": "2024-01-30T09:57:00Z",
-            "content": "Toyota has retained its lead as the worlds biggest automaker by sales, beating German rival Volkswagen for the fourth consecutive year.\r\nDespite the good news for Toyota (TM), it risks becoming bogge… [+4280 chars]"
-        },
-        {
-            "source": {
-                "id": 10,
-                "name": "CNN"
-            },
-            "author": "Hilary Whiteman",
-            "title": "Rare Sydney Harbour shark attack puts swimmers on edge - CNN",
-            "description": "A shark attack in an exclusive area of Sydney Harbour not far from the city’s iconic Opera House has prompted calls for swimmers to avoid the water at dawn and dusk when aggressive bull sharks are most active.",
-            "url": "https://www.cnn.com/2024/01/30/australia/australia-sydney-harbour-shark-attack-hnk-intl/index.html",
-            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/240130142009-oneill-shark-attack-australia.jpg?c=16x9&q=w_800,c_fill",
-            "publishedAt": "2024-01-30T09:21:00Z",
-            "content": "A shark attack in an exclusive area of Sydney Harbour not far from the citys iconic Opera House has prompted calls for swimmers to avoid the water at dawn and dusk when aggressive bull sharks are mos… [+5268 chars]"
-        },
-        {
-            "source": {
-                "id": 11,
-                "name": "CNBC"
-            },
-            "author": "Natasha Turak",
-            "title": "Former Pakistan Prime Minister Imran Khan gets 10-year jail term - CNBC",
-            "description": "The former national cricket captain became Pakistan's prime minister in 2018.",
-            "url": "https://www.cnbc.com/2024/01/30/former-pakistan-prime-minister-imran-khan-gets-10-year-jail-term.html",
-            "urlToImage": "https://image.cnbcfm.com/api/v1/image/107145467-1667477580993-gettyimages-1244400755-AFP_32MK8RE.jpeg?v=1706606833&w=1920&h=1080",
-            "publishedAt": "2024-01-30T08:46:18Z",
-            "content": "Former Prime Minister of Pakistan Imran Khan has been sentenced to 10 years in jail on charges of leaking state secrets, his party Pakistan Tehreek-e-Insaaf (PTI) confirmed in a post on social media … [+3436 chars]"
-        },
-        {
-            "source": {
-                "id": 12,
-                "name": "CNBC"
-            },
-            "author": "Sumathi Bala",
-            "title": "CNBC Daily Open: Fed rate cut timing in focus - CNBC",
-            "description": "The timing of interest rate cuts is certainly the top issue on the minds of most investors.",
-            "url": "https://www.cnbc.com/2024/01/30/cnbc-daily-open-fed-rate-cut-timing-in-focus.html",
-            "urlToImage": "https://image.cnbcfm.com/api/v1/image/107347299-17024961022023-12-13t193044z_659414327_rc2jw4a95uc4_rtrmadp_0_usa-stocks.jpeg?v=1702496165&w=1920&h=1080",
-            "publishedAt": "2024-01-30T07:30:01Z",
-            "content": "A trader reacts as a screen displays the Fed rate announcement on the floor of the New York Stock Exchange (NYSE) in New York City, U.S., December 13, 2023. \r\nThis report is from today's CNBC Daily O… [+3222 chars]"
+            "author": "HT News Desk",
+            "title": "ED initiates probe against Paytm Payments Bank: Report - Hindustan Times",
+            "description": "The ED's move is a fresh setback to the Payments Payments Back, especially after the RBI ruled out any review of its clampdown against the entity.",
+            "url": "https://www.hindustantimes.com/business/paytm-payments-bank-crisis-enforcement-directorate-ed-investigation-vijay-shekhar-sharma-101707898992022.html",
+            "urlToImage": "https://www.hindustantimes.com/ht-img/img/2024/02/14/1600x900/vijay_shekhar_sharma_1707899287494_1707899287695.jpg",
+            "publishedAt": "2024-02-14T08:41:57Z",
+            "content": "The Enforcement Directorate on Wednesday initiated preliminary inquiry against Paytm Payments Bank, Reuters quoted a CNBC TV 18 report on Wednesday. The action comes days after the Reserve Bank of In… [+2249 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "[Removed]"
+                "name": "India Today"
+            },
+            "author": "India Today Health Desk",
+            "title": "Rare human case of bubonic plague in US: All about the bacterial disease - India Today",
+            "description": "The bubonic plague is an infectious disease caused by the Yersinia pestis bacteria A rare human case has been reported in the US",
+            "url": "https://www.indiatoday.in/health/story/rare-human-case-of-bubonic-plague-in-us-all-about-the-bacterial-disease-2501996-2024-02-14",
+            "urlToImage": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202402/the-bacterium-causes-bubonic-plague-the-black-death-of-the-middle-ages-the-bacterium-is-primarily-141242368-16x9_0.jpg?VersionId=1bZwz.aVd8wTfS4zP5YIZWES8bsL8bMq",
+            "publishedAt": "2024-02-14T08:33:13Z",
+            "content": "A rare human case of bubonic plague has occurred in the US state of Oregon. Officials have said that the infection was transmitted by a pet cat. The patient's identity has not been revealed. However,… [+4254 chars]"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "TIMESOFINDIA.COM",
+            "title": "Symptom checker: Unusual signs of Vitamin B12 deficiency | The Times of India - Times of India",
+            "description": "​Vitamin B12 deficiency, while commonly associated with fatigue and weakness, can manifest in a variety of unusual and unexpected ways that often go unnoticed or are misattributed to other causes. Despite its essential role in maintaining nerve function, prod…",
+            "url": "https://timesofindia.indiatimes.com/life-style/health-fitness/health-news/vitamin-b12-deficiency-unusual-signs-that-will-shock-you/photostory/107684741.cms",
+            "urlToImage": "https://static.toiimg.com/photo/107685140.cms",
+            "publishedAt": "2024-02-14T08:30:00Z",
+            "content": "Vitamin B12 deficiency, while commonly associated with fatigue and weakness, can manifest in a variety of unusual and unexpected ways that often go unnoticed or are misattributed to other causes. Ide… [+429 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Koimoi"
+            },
+            "author": "Joginder Tuteja",
+            "title": "Teri Baaton Mein Aisa Uljha Jiya Box Office Collection Day 5: Comes On Its Own, Rises On Tuesday - Koimoi",
+            "description": "Shahid Kapoor & Kriti Sanon's Teri Baaton Mein Aisa Uljha Jiya is moving in the right direction. Here's how it earned on day 5!",
+            "url": "https://www.koimoi.com/box-office/box-office-teri-baaton-mein-aisa-uljha-jiya-comes-on-its-own-rises-on-tuesday/",
+            "urlToImage": "https://static-koimoi.akamaized.net/wp-content/new-galleries/2024/02/box-office-teri-baaton-mein-aisa-uljha-jiya-comes-on-its-own-rises-on-tuesday-001.jpg",
+            "publishedAt": "2024-02-14T08:28:59Z",
+            "content": "Teri Baaton Mein Aisa Uljha Jiya Box Office Collection Day 5 (Photo Credit Facebook)\r\nIts all happening for Teri Baaton Mein Aisa Uljha Jiya, and the film is moving in the right direction. After hold… [+1440 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Livemint"
+            },
+            "author": "Livemint",
+            "title": "Nawaz Sharif's brother Shehbaz Sharif likely to become next Pakistan PM. How Asif Ali Zardari, Bilawal Bhutto react | Mint - Mint",
+            "description": "Shehbaz Sharif, the younger brother of former PM Nawaz Sharif, is poised to become Pakistan's next prime minister as their coalition secures a clear majority after elections produced a split mandate.",
+            "url": "https://www.livemint.com/politics/news/nawaz-sharifs-brother-shehbaz-sharif-likely-to-become-next-pakistan-pm-how-asif-ali-zardari-bilawal-bhutto-react-11707891928698.html",
+            "urlToImage": "https://www.livemint.com/lm-img/img/2024/02/14/1600x900/Pakistan-s-Prime-Minister-Shehbaz-Sharif-s-governm_1691501862973_1707898330246.jpg",
+            "publishedAt": "2024-02-14T08:12:32Z",
+            "content": "Shehbaz Sharif, the younger brother of former PM Nawaz Sharif, is poised to become Pakistan's next prime minister as their coalition, comprising major parties, is set to secure a clear majority after… [+3666 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Hindustan Times"
+            },
+            "author": "HT Sports Desk",
+            "title": "'I can get injured again tomorrow': Ravindra Jadeja 'not diving unless...' - Hindustan Times",
+            "description": "Ravindra Jadeja wants to protect his body no matter when he returns to action in the 3rd India vs England Test. | Cricket",
+            "url": "https://www.hindustantimes.com/cricket/i-can-get-injured-again-ravindra-jadeja-wont-dive-unless-wants-to-protect-body-in-india-vs-england-3rd-test-101707897352534.html",
+            "urlToImage": "https://www.hindustantimes.com/ht-img/img/2024/02/14/1600x900/PTI02-14-2024-000063A-0_1707897539150_1707897562618.jpg",
+            "publishedAt": "2024-02-14T08:02:24Z",
+            "content": "Ravindra Jadeja on Wednesday confirmed his availability for the 3rd Test between India and England starting tomorrow at Rajkot. Ruled out of the second Test is Visakhapatnam following a hamstring whi… [+3255 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Hindustan Times"
+            },
+            "author": "Shishir Gupta",
+            "title": "Cong promises legal MSP to farmers, had opposed in 2010 during UPA rule - Hindustan Times",
+            "description": "In 2010, BJP MP Prakash Javadekar in the Rajya Sabha had asked the UPA government if it had accepted the recommendations of the Swaminathan Commission | Latest News India",
+            "url": "https://www.hindustantimes.com/india-news/farmers-protest-updates-congress-opposed-2010-msp-upa-government-bjp-101707894065063.html",
+            "urlToImage": "https://www.hindustantimes.com/ht-img/img/2024/02/14/1600x900/farmers_protest_1707895551582_1707895551818.jpg",
+            "publishedAt": "2024-02-14T07:41:12Z",
+            "content": "The Congress has promised legal guarantee of minimum support price (MSP) to the farmers if the INDIA alliance is voted to power after the 2024 Lok Sabha elections. However, a response by the Manmohan… [+1988 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Financial Express"
             },
             "author": null,
-            "title": "[Removed]",
-            "description": "[Removed]",
-            "url": "https://removed.com",
+            "title": "Asteroid Alarm: Asteroid 2024 BR4 to pass by Earth today - The Financial Express",
+            "description": "Earth to have a close encounter with asteroid 2024 BR4, 4.6 million km away—NASA assures minimal impact risk.",
+            "url": "https://www.financialexpress.com/life/science/asteroid-alarm-asteroid-2024-br4-to-pass-by-earth-today-bkg/3393926/",
+            "urlToImage": "https://www.financialexpress.com/wp-content/uploads/2024/02/FE_19e222.jpg",
+            "publishedAt": "2024-02-14T07:38:42Z",
+            "content": "Asteroid 2024 BR4: An asteroid known as 2024 BR4 is predicted to make a remarkably close encounter with Earth this Valentine’s Day, today, February 14. With a diameter ranging from 140 to 310 meters,… [+1337 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "OpIndia"
+            },
+            "author": "OpIndia",
+            "title": "‘Tune kiya, tujhe pata nahi hai, par tune kiya’: Anti-Modi lobby credit SRK for the release of 8 Navy veterans from Qatar despite his denial - OpIndia",
+            "description": null,
+            "url": "https://www.opindia.com/2024/02/anti-modi-lobby-credit-srk-for-the-release-of-8-navy-officials-from-qatar-despite-his-denial/",
             "urlToImage": null,
-            "publishedAt": "1970-01-01T00:00:00Z",
-            "content": "[Removed]"
+            "publishedAt": "2024-02-14T07:33:03Z",
+            "content": null
         },
         {
             "source": {
                 "id": null,
-                "name": "[Removed]"
+                "name": "NDTV News"
             },
             "author": null,
-            "title": "[Removed]",
-            "description": "[Removed]",
-            "url": "https://removed.com",
-            "urlToImage": null,
-            "publishedAt": "1970-01-01T00:00:00Z",
-            "content": "[Removed]"
+            "title": "Former Dutch PM And Wife Die \"Together Hand In Hand\" Via Duo Euthanasia - NDTV",
+            "description": "Former Dutch Prime Minister Dries van Agt has died by legal euthanasia, \"hand in hand\" with his wife Eugenie.",
+            "url": "https://www.ndtv.com/world-news/former-dutch-pm-and-wife-die-together-hand-in-hand-via-duo-euthanasia-5055215",
+            "urlToImage": "https://c.ndtvimg.com/2024-02/udrdjjn_former-dutch-prime-minister_625x300_14_February_24.jpeg?ver-20240117.06",
+            "publishedAt": "2024-02-14T07:21:05Z",
+            "content": "Mr Agt was the prime minister of the Netherlands between 1977 and 1982.\r\nFormer Dutch Prime Minister Dries van Agt has died by legal euthanasia, \"hand in hand\" with his wife Eugenie. The couple, who … [+2209 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Eonline.com"
+                "name": "Hindustan Times"
             },
-            "author": "Sabba Rahbar",
-            "title": "Fans Think Travis Kelce Did This Sweet Gesture for Taylor Swift After Chiefs Championship Game - E! NEWS",
-            "description": "Taylor Swift was seen sporting Travis Kelce's AFC Championship hat after the Kansas City Chiefs beat the Baltimore Ravens to advance to the Super Bowl.",
-            "url": "https://www.eonline.com/news/1394074/fans-think-travis-kelce-did-this-sweet-gesture-for-taylor-swift-after-chiefs-championship-game",
-            "urlToImage": "https://akns-images.eonline.com/eol_images/Entire_Site/2024029/cr_1200x1200-240129141538-GettyImages-1970037863.jpg?fit=around%7C1080:1080&output-quality=90&crop=1080:1080;center,top",
-            "publishedAt": "2024-01-30T06:36:07Z",
-            "content": "Travis Kelce's cheer captain just got a new accessory.\r\nAfter his Kansas City Chiefs beat the Baltimore Ravens at the Jan. 28 AFC Championship, the tight end's girlfriend Taylor Swift joined the Kelc… [+798 chars]"
+            "author": "HT Entertainment Desk",
+            "title": "Rakul Preet, Jackky to reportedly marry at this luxurious hotel in south Goa - Hindustan Times",
+            "description": "Rakul Preet Singh and Jackky Bhagnani are set to tie the knot next week. A new report has shared details about their wedding venue in Goa. | Bollywood",
+            "url": "https://www.hindustantimes.com/entertainment/bollywood/rakul-preet-singh-jackky-bhagnani-wedding-venue-goa-hotel-room-price-101707892226114.html",
+            "urlToImage": "https://www.hindustantimes.com/ht-img/img/2024/02/14/1600x900/Rakul_Preet_and_Jackky_1707892767509_1707892782633.jpg",
+            "publishedAt": "2024-02-14T06:52:14Z",
+            "content": "Rakul Preet Singh and Jackky Bhagnani are set to marry on February 21 in Goa. As per a report by India Today, their grand wedding will take place at the luxurious ITC Grand in south Goa. The portal a… [+2380 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "New York Post"
+                "name": "Bar & Bench - Indian Legal News"
             },
-            "author": "Christian Arnold",
-            "title": "Nikki and Brie Garcia react on sexual assault claims against Vince McMahon, stepdad John Laurinaitis - New York Post ",
-            "description": "Nikki and Brie Garcia made their first public comments about the sexual assault claims made against former WWE boss Vince McMahon and his former head of talent relations John Laurinaitis, who is th…",
-            "url": "https://nypost.com/2024/01/30/sports/nikki-and-brie-garcia-react-to-sexual-assault-claims-against-vince-mcmahon-stepdad/",
-            "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2024/01/newspress-collage-apjkgu705-1706592565903.jpg?quality=75&strip=all&1706574770&w=1024",
-            "publishedAt": "2024-01-30T06:10:00Z",
-            "content": "Nikki and Brie Garcia made their first public comments about the sexual assault claims made against former WWE boss Vince McMahon and his former head of talent relations John Laurinaitis, who is the … [+2512 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Android Authority"
-            },
-            "author": null,
-            "title": "Samsung finally breaks silence on Galaxy AI's fate after 2025 - Android Authority",
-            "description": "Samsung mobile chief T.M. Roh has said that the company will consider launching more advanced AI features for paid subscribers in the future.",
-            "url": "https://www.androidauthority.com/samsung-galaxy-ai-future-plans-3409282/",
-            "urlToImage": "https://www.androidauthority.com/wp-content/uploads/2024/01/Samsung-Galaxy-S24-GalaxyAI-Transcription-Processing.jpg",
-            "publishedAt": "2024-01-30T06:08:09Z",
-            "content": "<ul><li>Samsungs head of mobile, T.M. Roh, has opened up about the financial future of Galaxy AI.</li><li>The company could introduce more advanced AI features for paid subscribers in the future.</li… [+2054 chars]"
-        },
-        {
-            "source": {
-                "id": "cbs-news",
-                "name": "CBS News"
-            },
-            "author": "Eleanor Watson",
-            "title": "Pentagon releases names of 3 soldiers killed in drone attack in Jordan - CBS News",
-            "description": "Three U.S. service members will killed in a drone attack on a base in Jordan Sunday.",
-            "url": "https://www.cbsnews.com/news/soldiers-killed-jordan-names/",
-            "urlToImage": "https://assets2.cbsnewsstatic.com/hub/i/r/2024/01/29/02e7c48b-74d9-45a5-a533-b0396c2cf363/thumbnail/1200x630g2/f47db3e8495d6d7b0d56d7ce17fc7ad2/screenshot-2024-01-29-at-3-59-22-pm.png?v=d5d292229f42ff99b81040fe7c32f134",
-            "publishedAt": "2024-01-30T05:54:00Z",
-            "content": "The Pentagon announced the names of the three American service members who were killed in an unmanned aerial drone attack on a base in northeast Jordan on Sunday.\r\nIn a press release Monday, the Defe… [+2970 chars]"
-        },
-        {
-            "source": {
-                "id": "espn",
-                "name": "ESPN"
-            },
-            "author": "Dave McMenamin",
-            "title": "Lakers defend Vanderbilt for run-in with Brooks - ESPN",
-            "description": "The Lakers backed up Jarred Vanderbilt's decision to go at Rockets guard Dillon Brooks after a hard foul, even though it got the forward ejected in a blowout loss.",
-            "url": "https://www.espn.com/nba/story/_/id/39419716/lakers-defend-jarred-vanderbilt-run-dillon-brooks",
-            "urlToImage": "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F0130%2Fr1284336_1023x682_3%2D2.jpg",
-            "publishedAt": "2024-01-30T05:43:00Z",
-            "content": "HOUSTON -- After Jarred Vanderbilt was ejected in the first half of Monday's 135-119 loss to the Houston Rockets for a run-in with Dillon Brooks, several members of the Los Angeles Lakers defended Va… [+3911 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "nj.com"
-            },
-            "author": "Holiday Mathis",
-            "title": "Today’s daily horoscope for Jan. 30, 2024 - NJ.com",
-            "description": "Zodiac signs and horoscopes on 1/30/2024 for Aquarius, Pisces, Aries, Taurus, Gemini, Cancer, Leo, Virgo, Libra, Scorpio, Sagittarius, Capricorn.",
-            "url": "https://www.nj.com/advice/2024/01/todays-daily-horoscope-for-jan-30-2024.html",
-            "urlToImage": "https://www.nj.com/resizer/y0GkxcEcKp6NoyUc0LAtx7APmMY=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/SAGJVB5QCZCNFBN2U2NE2O4GTE.png",
-            "publishedAt": "2024-01-30T05:01:00Z",
-            "content": "Cosmic Guide to Sleepwalking\r\nWaking sleepwalkers is unadvised because the disorienting leap of consciousness necessary to go from the deep levels of sleep to an awake state can cause cognitive impai… [+4435 chars]"
+            "author": "Meera Emmanuel",
+            "title": "Calcutta High Court takes suo motu cognisance of alleged sexual assault of women at gunpoint in Sandeshkhali - Bar & Bench - Indian Legal News",
+            "description": "The Calcutta High Court on Tuesday took suo motu cognisance of reports that women in Sandeshkhali village of 24 Paraganas district in West Bengal were subjected",
+            "url": "https://www.barandbench.com/news/calcutta-high-court-suo-motu-cognisance-sexual-assault-women-sandeshkhali",
+            "urlToImage": "https://media.assettype.com/barandbench%2F2020-06%2F2bbf8db2-11b2-4dc6-9bbc-9d453ec6500d%2FCalcutta_High_Court_17.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+            "publishedAt": "2024-02-14T06:43:56Z",
+            "content": "As per reports, at least three Trinamool Congress Party (TMC) leaders, Sheikh Shajahan, Shiba Prasad Hazra and Uttam Sardar are alleged to have been involved in the land grabbing activities and the t… [+1095 chars]"
         }
     ]
-}]
 
 const Data = () =>{
     const [movie,setMovie]=useState(Movies);
@@ -272,7 +268,7 @@ const Data = () =>{
         setMovie(newMovielist)
     };             
                
-               
+
     return(
         <>
             <div className="row">
@@ -281,7 +277,7 @@ const Data = () =>{
                     <data.js
                         data={item}
                     />     
-                ))}
+                ))} 
              </div>
                             
             

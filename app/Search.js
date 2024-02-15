@@ -6,7 +6,7 @@ const Search = () =>{
     return(
         <div className="container">
             <div className="row">
-                <div className="text-center">
+                <div className="text-center search-bar">
                     <input type="text" value="Search" id="search" className="search-box"/>
                     <input type="submit" value="Go" id="button" className="go-button"/>
                 </div>

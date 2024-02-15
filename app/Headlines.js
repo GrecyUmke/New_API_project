@@ -7,17 +7,6 @@ const Headlines = () =>{
             <div className="text-danger head-text">
                 <span>TOP NEWS FROM INDIA</span>
             </div>
-            <div className="row">
-                <div className="col-md-4 border border-dark headline-box"></div>  
-                <div className="col-md-4 border border-dark headline-box"></div>                 
-                <div className="col-md-4 border border-dark headline-box"></div> 
-                <div className="col-md-4 border border-dark headline-box"></div>  
-                <div className="col-md-4 border border-dark headline-box"></div>                 
-                <div className="col-md-4 border border-dark headline-box"></div> 
-                <div className="col-md-4 border border-dark headline-box"></div>  
-                <div className="col-md-4 border border-dark headline-box"></div>                 
-                <div className="col-md-4 border border-dark headline-box"></div> 
-            </div>
         </div>
     )
 }
