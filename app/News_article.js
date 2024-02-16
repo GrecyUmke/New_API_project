@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 
-const News_article_cols = () =>{
+const News_article = () =>{
     return(
         <div className="col-12 col-md-4 headline-box">
             <img src="Virat.png" className="cricket-image"/>
@@ -17,4 +17,4 @@ const News_article_cols = () =>{
     )
 }
 
-export default News_article_cols;
+export default News_article;
