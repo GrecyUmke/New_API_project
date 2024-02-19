@@ -4,6 +4,7 @@ import Search from "./Search";
 import Headlines from "./Headlines";
 import Footer from "./Footer";
 import News_row from "./News_row";
+import data from "./data.js";
 
 const Page = () =>{
   return(
@@ -11,9 +12,7 @@ const Page = () =>{
       <Header/>
       <Search/>
       <Headlines/>
-      <News_row/>
-      <News_row/>
-      <News_row/>
+      <News_row index={data}/>
       <Footer/>
     </>
   )
